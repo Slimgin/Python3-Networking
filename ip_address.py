@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 
 # The original intent was to have this code always running, in a separate iTerm2 window with other information displayed. I am still working on that aspect and will post updated
 # working code, at some point. That is the reason for the while loop - sleep command. If I connected to a different network or VPN, I wanted the code to update the new IP addresses.
@@ -6,7 +6,7 @@
 # or on Reddit (https://www.reddit.com/user/GilNims). 
 
 from requests import get
-import time
+#import time
 
 # ip_address function prints your machine's IPv4 and IPv6 address, provided they are unique. Since some ISP's have not started providing customer's with IPv6 addresses
 # this script checks to see if the two addresses are the same.
